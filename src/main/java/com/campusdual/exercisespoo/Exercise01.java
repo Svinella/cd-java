@@ -14,7 +14,7 @@ public class Exercise01 {
 
 
         int i= 1;
-        String iStr = String.valueOf("i")
+        String iStr = String.valueOf("i");
         Double iDouble = Double.valueOf(iStr);
         String iDstr = String.valueOf(iDouble);
         System.out.println(Boolean.valueOf("true"));
