@@ -9,9 +9,13 @@ public class Exercise03 {
 
     }
 
+    public static void fechaActual(String fecha){
+        System.out.println(fecha);
+
+    }
+
     public static void main(String[] args) {
         System.out.println(saludo("santiago"));
-        
 
     }
 }
