@@ -10,12 +10,16 @@ public class Exercise03 {
     }
 
     public static void fechaActual(String fecha){
-        System.out.println(fecha);
+        String mensaje = "La fecha actual es: " + fecha;
+        System.out.println(mensaje);
 
     }
 
     public static void main(String[] args) {
-        System.out.println(saludo("santiago"));
+        String mi_mensaje = saludo("santiago");
+        System.out.println(mi_mensaje);
+        fechaActual("19/10/2023");
+
 
     }
 }
