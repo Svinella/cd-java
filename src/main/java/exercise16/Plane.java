@@ -1,6 +1,14 @@
 package exercise16;
 
 public class Plane implements Imachine {
+
+
+    
+
+
+
+
+
     public void  start(){
         System.out.println("Encendido");
     }
